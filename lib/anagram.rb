@@ -16,7 +16,6 @@ class Anagram
   		# 	nil
   		end
       matches
-      binding.pry
 
     end
   end
