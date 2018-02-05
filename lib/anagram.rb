@@ -1,4 +1,4 @@
-# Your code goes here!
+require 'pry'
 class Anagram
   attr_accessor :word
 
@@ -13,6 +13,8 @@ class Anagram
   		# else
   		# 	nil
   		end
+      each_word
+      binding.pry
     end
   end
 
