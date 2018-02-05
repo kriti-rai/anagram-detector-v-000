@@ -16,7 +16,7 @@ class Anagram
   		# 	nil
   		end
       each_word
-      
+
     end
   end
 
