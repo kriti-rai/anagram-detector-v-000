@@ -7,13 +7,15 @@ class Anagram
   end
 
   def match(some_words)
+    matches = []
     some_words.map do |each_word|
 
   		if each_word.split("").sort == @word.split("").sort
-  			each_word
+  			matches << each_word
   		# else
   		# 	nil
   		end
+      matches
 
 
     end
