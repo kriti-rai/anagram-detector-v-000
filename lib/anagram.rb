@@ -10,8 +10,8 @@ class Anagram
     some_words.map do |each_word|
   		if each_word == @word.split("").sort
   			each_word
-  		else
-  			nil
+  		# else
+  		# 	nil
   		end
     end
   end
